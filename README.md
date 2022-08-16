@@ -26,12 +26,13 @@ If you change `/blocking` for `/non-blocking`, you'll notice that the task will 
 
 ## Commands
 
-- pgrep <process>
-It's the same: ps | grep <process>
+- pgrep **process**
+
+It's the same as **ps | grep process**.
 
 Use this command to grep specifically **process**.
 
-- top -H -p <process_id>
+- top -H -p **process_id**
 
 Use this command to see the Nodejs' threads.
 
